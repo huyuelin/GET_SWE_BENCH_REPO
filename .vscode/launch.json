@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python : agentless",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "python": "/home/wsl/miniconda3/envs/agentless/bin/python",
+            "args": [
+                "--instance_id","sympy__sympy-11618",
+
+                "--only_file_name",
+                "--output_folder", "only_file_name",
+                "--output_file", "only_file_name.jsonl",
+
+                // "--function_without_signature",
+                // "--output_folder", "function_without_signature",
+                // "--output_file", "function_without_signature.jsonl",
+
+                // "--function_with_signature",
+                // "--output_folder", "function_with_signature",
+                // "--output_file", "function_with_signature.jsonl",
+
+                // "--full_text",
+                // "--output_folder", "full_text",
+                // "--output_file", "full_text.jsonl",
+
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {"PYTHONPATH": "${workspaceFolder}${pathSeparator}${env:PYTHONPATH}"},
+        }
+    ]
+}

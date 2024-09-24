@@ -1,0 +1,52 @@
+Instance ID: astropy__astropy-12907
+File: astropy/modeling/separable.py
+Changes:
+  Lines 242-248 in function _cstack
+----------------------------------------
+Instance ID: django__django-10097
+File: django/core/validators.py
+Changes:
+  Lines 94-100
+----------------------------------------
+Instance ID: matplotlib__matplotlib-13989
+File: lib/matplotlib/axes/_axes.py
+Changes:
+  Lines 6686-6692 in function hist
+----------------------------------------
+Instance ID: mwaskom__seaborn-3069
+File: seaborn/_core/plot.py
+Changes:
+  Lines 25-31
+  Lines 1238-1243 in function _setup_scales
+  Lines 1630-1636 in function _finalize_figure
+  Lines 1644-1660 in function _finalize_figure
+----------------------------------------
+Instance ID: pallets__flask-5014
+File: src/flask/blueprints.py
+Changes:
+  Lines 190-198 in function __init__
+----------------------------------------
+Instance ID: pydata__xarray-2905
+File: xarray/core/variable.py
+Changes:
+  Lines 218-225 in function as_compatible_data
+----------------------------------------
+Instance ID: pytest-dev__pytest-10051
+File: src/_pytest/logging.py
+Changes:
+  Lines 40-45
+  Lines 344-353 in function reset
+  Lines 443-449 in function messages
+----------------------------------------
+Instance ID: scikit-learn__scikit-learn-10297
+File: sklearn/linear_model/ridge.py
+Changes:
+  Lines 1212-1229
+  Lines 1301-1319
+  Lines 1338-1348 in function __init__
+----------------------------------------
+Instance ID: sympy__sympy-11618
+File: sympy/geometry/point.py
+Changes:
+  Lines 266-285 in function distance
+----------------------------------------

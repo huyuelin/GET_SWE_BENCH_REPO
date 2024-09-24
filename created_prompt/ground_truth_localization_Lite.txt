@@ -1,0 +1,17 @@
+Instance ID: astropy__astropy-12907
+File: astropy/modeling/separable.py
+Changes:
+  Lines 242-248 in function _cstack
+----------------------------------------
+Instance ID: django__django-11001
+File: django/db/models/sql/compiler.py
+Changes:
+  Lines 32-39 in function __init__
+----------------------------------------
+Instance ID: matplotlib__matplotlib-22711
+File: lib/matplotlib/widgets.py
+Changes:
+  Lines 813-822 in function _update_val_from_pos
+  Lines 839-854 in function _update
+  Lines 912-933 in function set_val
+----------------------------------------
